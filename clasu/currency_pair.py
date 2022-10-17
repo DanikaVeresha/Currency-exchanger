@@ -1,30 +1,17 @@
-from clasu.currency_pairs_list import *
-
-
 class Course:
 
-    def __init__(self, course, rate, available):
-        self.course = course
+    def __init__(self, name, rate, available):
+        '''атрибуты валютной пары'''
+        self.name = name
         self.rate = rate
         self.available = available
 
-    def usd(self):
-        for item in courseUSD:
-            return f'\n Course: {item.curse} | Rate: {item.rate}\n' \
-                   f'Available: {item.available} USD\n'
+    def enter(self):
+        '''выводит курс валюты на екран'''
+        print(f'Course: {self.name} | Rate: {self.rate}\n'
+              f'Available: {self.available}\n')
 
-    def uah(self):
-        for item in courseUAH:
-            return f'\n Course: {item.curse} | Rate: {item.rate}\n' \
-                   f'Available: {item.available} UAH\n'
 
-    def bch(self):
-        for item in courseBCH:
-            return f'\n Course: {item.curse} | Rate: {item.rate}\n' \
-                   f'Available: {item.available}\n'
-
-    def __str__(self):
-        return self.usd(), self.uah(), self.bch()
 
 
 
