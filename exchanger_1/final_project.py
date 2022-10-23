@@ -31,6 +31,7 @@ while True:
             print(f'COURSE: {courseBTC.name}')
             print(f'RATE: {courseBTC.privat_course["btc"]}')
             print(f'Available: {courseBTC.available}')
+            print(f'Available: {courseBTC.available_uah} UAH')
         case '4':
             courseUSD.operationUAH_USD()
         case '5':
@@ -47,6 +48,7 @@ while True:
             print('Wrong choice, look in the program menu "Exchanger"')
 
 print('SERVICE STOPPED')
+
 
 
 
