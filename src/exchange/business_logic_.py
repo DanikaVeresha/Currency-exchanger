@@ -1,6 +1,5 @@
 
-from clasu.currency_pairs_list import *
-
+from object.exchange_block_ import *
 
 while True:
     print(f'Hello.\n'
@@ -15,29 +14,16 @@ while True:
         case '0':
             break
         case '1':
-            courseUSD.enter()
+            usd()
         case '2':
-            courseUAH.enter()
+            uah()
         case '3':
-            courseBCH.enter()
+            bch()
         case '4':
-            courseUSD.operationUAH()
+            operationUAH()
         case '5':
-            courseUAH.operationUSD()
+            operationUSD()
         case _:
             print('Wrong choice, look in the program menu "Exchanger"')
 
 print('SERVICE STOPPED')
-
-
-
-
-
-
-
-
-
-
-
-
-

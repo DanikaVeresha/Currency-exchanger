@@ -1,3 +1,4 @@
+
 from clasu.currency_pair import *
 
 
@@ -6,8 +7,6 @@ class ReadingRemains(Course):
     def __init__(self, name, rate, available):
         super().__init__(self, rate, available)
         self.name = name
-        self.rate = rate
-        self.available = available
 
     def operationUAH(self):
         '''операция обмен'''

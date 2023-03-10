@@ -10,3 +10,7 @@ client,conversion,rate,remainder,balanceUSD_UAH
 100,3980.0,39.8,46020.0,15100.0
 client,conversion,rate,remainder,balanceUSD_UAH
 1000,39800.0,39.8,10200.0,16000.0
+client,conversion,rate,remainder,balanceUSD_UAH
+1000,39990.0,39.99,10010.0,16000.0
+client,conversion,rate,remainder,balanceUSD_UAH
+100,3999.0,39.99,46001.0,15100.0

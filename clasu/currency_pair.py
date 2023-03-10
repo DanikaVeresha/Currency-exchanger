@@ -1,3 +1,5 @@
+
+
 class Course:
 
     def __init__(self, name, rate, available):
@@ -10,6 +12,7 @@ class Course:
         '''выводит курс валюты на екран'''
         print(f'Course: {self.name} | Rate: {self.rate}\n'
               f'Available: {self.available}\n')
+
 
 
 
